@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModItems {
     // 注册
-    public static final Item ENDER_HORSE_ARMOR = registerItem(new EnderHorseArmorItem(15, "ender",
+    public static final Item ENDER_HORSE_ARMOR = registerItem(new EnderHorseArmorItem(13, "ender",
             new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC)));
     private static Item registerItem(Item item) {
         return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(EugenesHorseWhistle.MODID, "ender_horse_armor"), item);
